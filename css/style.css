@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+#main-nav {
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+#menu,
+.toggle {
+    display: none;
+}
+
+.toggle {
+    display: block;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 20px;
+}
+.toggle:hover{
+    background-color: #FFFDFA;
+}
+
+.img:hover {
+    background-color: white;
+    
+}
+
+#main-nav li a{
+    color: #E83525;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#main-nav ul {
+    display: none;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#main-nav #menu:checked + ul {
+    display: block;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+#main-nav li {
+    display: inline-block;
+    padding: 10px 80px;
+    font-size: 25px;
+}
+
+#main-nav li a:hover {
+   color: #871F25;
+}
+
+
+img {
+    width: 50px;
+    margin-top: 5px;
+}
+
+header {
+    background-image: url('../img/tapeta1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+header > div{
+    position: absolute;
+    margin: 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    padding: 40px 60px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#naglowek h1,
+#naglowek h2{
+    text-align: center;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 300;
+}
+
+#naglowek h2{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+section{
+    padding: 80px 60px;
+}
+
+
+
+#onas h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+span{
+    color: #E83525;
+    
+}
+
+#fotatapicer{
+    width: 50%;
+}
+
+#omnietekst1{
+    width: 50%;
+    float: right;
+    
+}
+#omnietekst1 h2,
+#omnietekst2 h2{
+    font-weight: 400;
+    color: #E83525;
+    top: 250px;
+}
+
+#onas figure{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    margin: 0;
+    text-align: center;
+   
+}
+
+#onas > figure  img{
+    width: 70%;
+    margin-top: 8%;
+     border-radius: 10%;
+}
+
+.clear{
+    clear: both;
+}
+
+#omnietekst2{
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+}
+
+
+
+
